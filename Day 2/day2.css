@@ -1,0 +1,93 @@
+.chapter2 {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+h1 {
+    text-align: center;
+    color: rgb(67, 67, 240);
+}
+h2 {
+    text-align: center;
+    color: rgb(102, 148, 102);
+}
+ul {
+    list-style-type: square;
+}
+a {
+    text-decoration: none;
+    color: purple;
+}
+a:hover {
+    color: orange;
+}
+body {
+    background-color: #52585a5c;
+}
+p {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+.chapter1 {
+    color: brown;
+    font-size: 18px;
+    font-weight: bold;
+}
+.chapter3 {
+    color: teal;
+    font-size: 22px;
+    font-weight: bold;
+    border: 2px solid #af2d2d;
+}
+bg.color {
+    background-color: #af2d2d;
+}
+marquee {
+    font-size: 24px;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+.center {
+    text-align: center;
+}
+  #bg-video {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            z-index: -1;
+        }
+        /* Added a container for content to sit on top of the video */
+        .content {
+            position: relative;
+            z-index: 1;
+            color: white; /* Changed text color for better visibility */
+            text-align: center;
+        }
+.p{
+    font-size: 18px;
+    color: white;
+    text-align: justify;
+    margin: 0 20px;
+
+}
+#c1{
+    color: brown;
+    font-size: 18px;
+    font-weight: bold;
+}
+#c2{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+#c3{
+    color: teal;
+    font-size: 22px;
+    font-weight: bold;
+    border: 2px solid #af2d2d;
+}
+
