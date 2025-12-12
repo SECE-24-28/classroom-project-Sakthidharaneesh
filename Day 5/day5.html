@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id = "para">This is Paragraph with Id</p>
+    <script>
+        const para = document.getElementById("para");
+        para.style.color = "red";
+        para.style.backgroundColor = "black";
+        para.style.fontSize = "50px";
+    </script>
+
+    <p class = "para">This is Paragraph 1 with Class</p>
+    <p class = "para">This is Paragraph 2 with Class</p>
+    <p class = "para">This is Paragraph 3 with Class</p>
+    <script>
+        const para1 = document.getElementsByClassName("para");
+        para1[0].style.color = "white";
+        para1[0].style.backgroundColor = "red";
+        para1[0].style.fontSize = "500%";
+
+        para1[1].style.color = "darkgreen";
+        para1[1].style.backgroundColor = "palegreen";
+        para1[1].style.fontSize = "500%";
+        
+        para1[2].style.color = "blue";
+        para1[2].style.backgroundColor = "lightblue";
+        para1[2].style.fontSize = "500%";
+    </script>
+
+    <p id = "demo">Hello</p>
+    <script>
+        let a = document.getElementById("demo").innerText; <!--.textContent also can be used instead of .innerText-->
+        console.log("innerText: ", a);
+    </script>
+
+    <p id = "p1">Hello</p>
+    <button onclick = "changeText()">click</button>
+    <script>
+        function changeText() {
+            document.getElementById("p1").innerText = "Text changed using innerText";
+        }
+    </script>
+</body>
+</html>
