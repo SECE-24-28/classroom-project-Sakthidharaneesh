@@ -1,0 +1,169 @@
+input[type="button"] {
+        background-color: red;
+        color: white;
+        border: none;
+        padding: 10px 20px; 
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+        height: 60px;
+        width: 150px;
+        border-radius: 20px;
+        transition: background-color 0.3s ease;
+    }
+    input[type="button"]:hover {
+        opacity: 0.6;
+    }
+    .box {
+        width: 500px;
+        height: 200px;
+        border: 2px solid black;    
+        margin-top: 50px;
+        margin-left: 0%;
+        h1{
+            position:absolute;
+            top:60px;
+            left: 280px;
+            font-size: 40px;
+            font-weight: bold;
+        }
+        h2{
+            position:relative;
+            top:60px;
+            left:0px;
+            font-size: 30px;
+            font-weight: bold;
+        }
+    }
+    .stick{
+        h1{
+            position:sticky;
+            color:blue
+        }
+        position: sticky;
+        background-color: rgb(205, 212, 213);
+        padding: 10px;
+        font-size: 15px;
+        font-weight: bold;
+        border: 2px solid black;
+    }
+    .block1{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        border: 2px solid black;
+        display: inline-block;
+        position: relative;
+        top: 60px;
+        left: 40px;
+        z-index: index 1;
+    }
+    .block2{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        background-color: yellow;
+        border: 2px solid black;
+        display: inline-block;
+        z-index: index 2;
+    }
+    .block3{
+        width: 100px;
+        height: 100px;
+        background-color: green;
+        border: 2px solid black;
+        display: inline-block;
+    }
+    .overflow{
+        width: 500px;
+        height: 100px;
+        border: 2px solid black;
+        overflow: scroll;
+    }
+    .flexbox{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        .image1, .image2, .image3, .image4{
+            width: 300px;
+            height: 150px;
+            border: 2px solid black;
+        }
+    }
+     @keyframes  n {
+   from{
+    transform: translateX(400px);
+   }           
+   to{
+    transform: translateY(100px);
+   }
+        }
+        @keyframes i {
+            from{
+                opacity: 0;
+            }
+            to{
+                opacity: 1;
+            }
+        }
+        @keyframes friend{
+            0%{
+                width: 50px;
+                height: 50px;
+            }
+            25%{
+                width: 100px;
+                height: 100px;
+            }
+            50%{
+                width: 200px;
+                height: 200px;
+            }
+            75%{
+                width: 300px;
+                height: 300px;
+            }
+            100%{
+                width: 500px;
+                height: 500px;
+            }
+            
+        }
+ .div{
+             width:50px;
+             height: 80px;
+             background-color:cyan;
+             margin: top 59px; 
+             padding-left: 30px;
+             animation: n 1s infinite alternate;
+           }
+           .f{
+            width:50px;
+             height: 80px;
+             background-color:rgb(109, 29, 228);
+             margin: top 59px; 
+             padding-left: 30px;
+             animation: i 1s infinite alternate;
+           }
+           .fu{
+            width:50px;
+             height: 80px;
+             background-color:rgb(214, 39, 9);
+             margin: top 59px; 
+             padding-left: 30px;
+             animation: friend 1s infinite alternate;
+           }
+           .di{
+             width:50px;
+             height: 80px;
+             background-color:rgb(173, 188, 188);
+             margin: top 59px; 
+             animation: p 1s infinite alternate;}
+             @keyframes p {
+                from {
+                    transform: rotate(0deg);
+                }to {
+                    transform: rotate(360deg);
+                }
+                
+             }
